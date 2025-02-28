@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css" type="text/css">
+  <script src="js/gallery.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Photo Gallery</h1>
+  </header>
+  <main>
+    <div id="image">
+      Hover over an image below to display here.
+    </div>
+
+    <img class="preview" alt="Bora bora island, Caribbean" src="images/bora-bora.jpg" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+
+    <img class="preview" alt="Stonehenge, England" src="images/stonehenge.jpg" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+
+    <img class="preview" src="images/lotus.jpg" alt="Beautiful Lotus Flowers" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+
+    <img class="preview" src="images/netherlands.jpg" alt="Large phone sculpture, Netherlands"
+      onmouseover="upDate(this)" onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+
+    <img class="preview" src="images/paper-clips.jpg" alt="Paper clips with different colors" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+
+    <img class="preview" src="images/meteora.jpg" alt="Meteora cliff in Greece" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="handleFocus(this)" onblur="handleBlur()">
+  </main>
+</body>
+
+</html>
